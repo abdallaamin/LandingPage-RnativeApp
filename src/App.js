@@ -33,7 +33,7 @@ const App=()=> {
       />
       <Download/>
       <div className="px-4 py-2 justify-center items-center bg-gray-600 flex-col text-center banner04">
-        <p className={`${styles.pText} ${styles.whiteText}`}>Made with {`<3`} by {" "}
+        <p className={`${styles.pText} ${styles.whiteText}`}>Made with {`❤️`} by {" "}
         <span className="bold">Abdalla Amin </span>
         </p>
       </div>
