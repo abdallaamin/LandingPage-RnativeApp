@@ -8,20 +8,20 @@ const App=()=> {
     <>
     <SectionWrapper 
     title="You own store of Nifty NFTs. Start Selling & Growing"
-    description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using ProNef Marketplace."
+    description="Buy, store, collect NFTS, exchange & earn crypto."
     showBtn
     mockupImg={assets.homeHero}
     />
     <SectionWrapper 
         title="Smart User Interface Marketplace"
-        description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design."
+        description="Experience a buttery UI of NFT Marketplace. Smooth constant colors of a fluent UI design."
         mockupImg={assets.homeCards}
         reverse
       />
       <Features />
       <SectionWrapper 
         title="Deployment"
-        description="ProNef is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
+        description="It's built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
         mockupImg={assets.feature}
         reverse
       />
@@ -32,9 +32,9 @@ const App=()=> {
         banner="banner02"
       />
       <Download/>
-      <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
-        <p className={`${styles.pText} ${styles.whiteText}`}>Made with love by {" "}
-        <span className="bold">Abdalla Amin</span>
+      <div className="px-4 py-2 justify-center items-center bg-gray-600 flex-col text-center banner04">
+        <p className={`${styles.pText} ${styles.whiteText}`}>Made with {`<3`} by {" "}
+        <span className="bold">Abdalla Amin </span>
         </p>
       </div>
     </>
