@@ -14,12 +14,13 @@ function Features() {
         <div className={`${styles.subSection} flex-col text-center`}>
           <div>
             <h1 className={`${styles.h1Text} ${styles.whiteText}`}>Technologies</h1>
-            <p className={`${styles.pText} ${styles.whiteText}`}>ProNef has been developed using a cross-platform technology, React Native.</p>
+            <p className={`${styles.pText} ${styles.whiteText}`}>It 's been developed using a cross-platform technology, React Native.and Js</p>
           </div>
   
           <div className={styles.flexWrap}>
             <FeatureCard iconUrl={assets.react} iconText="React Native" />
             <FeatureCard iconUrl={assets.javascript} iconText="JavaScript" />
+            <FeatureCard iconUrl={assets.tailwindCss} iconText="TailwindCss" />
           </div>
         </div>
       </div>
