@@ -3,6 +3,7 @@
 # landing page for Nfty Koshek 
 NftyKoshek
 an NFTs marketplace where you can sell , bid and trade NFTs built using React Native ,
+including original NFTs created by me (abdalla amin)
 <br/>
 <h3>you can check the app by downloading Expo in your phone and then 
 <a href="https://expo.dev/@theaminoz/Nftykoshek?serviceType=classic&distribution=expo-go" target="__blank" >press here</a>
